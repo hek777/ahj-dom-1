@@ -1,0 +1,11 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 600px;
+    background-color: #008000;
+  }
+  
+  .wrapper div {
+    height: 170px;
+    border: 1px solid #000;
+  }
