@@ -1,5 +1,9 @@
+/* eslint-disable linebreak-style */
+// eslint-disable-next-line linebreak-style
+/* eslint-disable import/no-extraneous-dependencies */
 const path = require('path');
 const webpack = require('webpack');
+// eslint-disable-next-line import/no-extraneous-dependencies
 const { merge } = require('webpack-merge');
 const common = require('./webpack.common');
 
@@ -18,6 +22,7 @@ module.exports = merge(common, {
     port: 8080,
   },
 
+  // eslint-disable-next-line no-multiple-empty-lines
 
   plugins: [
     // Only update what has changed on hot reload
