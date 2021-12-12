@@ -1,13 +1,12 @@
 /* eslint-disable linebreak-style */
-// eslint-disable-next-line linebreak-style
 /* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable eol-last */
 /* eslint-disable linebreak-style */
 const { merge } = require('webpack-merge');
 // eslint-disable-next-line import/no-extraneous-dependencies
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const common = require('./webpack.common');
-
 // const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = merge(common, {
